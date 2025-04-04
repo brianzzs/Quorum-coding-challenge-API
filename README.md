@@ -35,17 +35,18 @@ This project is a Flask API to serve data related to legislators, bills, and vot
 ## UI Setup & Running
 
 1.  **Navigate to the UI project directory:**
-    *(Assuming the UI project is in a sibling directory named `quorum-coding-challenge-ui`)*
+    The UI project repository can be found here: [Quorum Coding Challenge UI](https://github.com/brianzzs/Quorum-coding-challenge-ui)
+
     ```bash
     cd ../quorum-coding-challenge-ui
     ```
 
-2.  **Install Node dependencies:**
+3.  **Install Node dependencies:**
     ```bash
     npm install
     ```
 
-3.  **Start the UI development server:**
+4.  **Start the UI development server:**
     ```bash
     npm run dev
     ```
