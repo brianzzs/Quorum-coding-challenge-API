@@ -1,0 +1,228 @@
+type: collection.insomnia.rest/5.0
+name: Scratch Pad
+meta:
+  id: wrk_scratchpad
+  created: 1743441104539
+  modified: 1743441104539
+collection:
+  - name: Quorum
+    meta:
+      id: fld_82c83411a71e4878ae5a42bfb423e9c3
+      created: 1743724677254
+      modified: 1743776742808
+      sortKey: -1743724677254
+    children:
+      - name: Bill
+        meta:
+          id: fld_d21a469acec84a629e3326bacdd232ed
+          created: 1743736003133
+          modified: 1743740165187
+          sortKey: -1743740156771
+        children:
+          - url: http://127.0.0.1:5000/bill
+            name: Bill
+            meta:
+              id: req_a610c5ce2b4d482584f3e7d9309c5308
+              created: 1743733802137
+              modified: 1743737935287
+              isPrivate: false
+              sortKey: -1743736015360
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://127.0.0.1:5000/bill/id/2952375
+            name: Bill by Id
+            meta:
+              id: req_0636794edfff4cbc8f7a4f147d7f2c19
+              created: 1743737912347
+              modified: 1743741687049
+              isPrivate: false
+              sortKey: -1743732551512.5
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://127.0.0.1:5000/bill/vote-summary
+            name: Vote Summary
+            meta:
+              id: req_8efe45f060204f67ba7813b738db53a3
+              created: 1743737946249
+              modified: 1743740259215
+              isPrivate: false
+              sortKey: -1743730819588.75
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Legislator
+        meta:
+          id: fld_bad38cf3df934b6b9929dedda7e00167
+          created: 1743738089969
+          modified: 1743740167641
+          sortKey: -1743740156721
+        children:
+          - url: http://127.0.0.1:5000/legislator/
+            name: Legislator
+            meta:
+              id: req_dc393d77718640899f414f30aca3d2b4
+              created: 1743729087665
+              modified: 1743738094373
+              isPrivate: false
+              sortKey: -1743738094317
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://127.0.0.1:5000/legislator/id/1269778
+            name: Legislator by Id
+            meta:
+              id: req_d1fcb2f9ec084758bec0289e43e3a45e
+              created: 1743733785359
+              modified: 1743741729970
+              isPrivate: false
+              sortKey: -1743738094217
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://127.0.0.1:5000/legislator/id/1269778/bills-supported
+            name: Count Bills Supported
+            meta:
+              id: req_5789bee92e344099af123447fe373906
+              created: 1743738910956
+              modified: 1743741733341
+              isPrivate: false
+              sortKey: -1743738910956
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://127.0.0.1:5000/legislator/id/1269778/bills-opposed
+            name: Count Bills Opposed
+            meta:
+              id: req_d3a2bf9ad06c4f4a9102efadd7bb3a53
+              created: 1743739188094
+              modified: 1743741737559
+              isPrivate: false
+              sortKey: -1743738502636.5
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Vote Result
+        meta:
+          id: fld_8a094ce3d6714536a21d003432a291f3
+          created: 1743740156671
+          modified: 1743740179766
+          sortKey: -1743740156671
+        children:
+          - url: http://127.0.0.1:5000/vote_results/
+            name: All Vote Results
+            meta:
+              id: req_91904dfb63894ed7bac9b88bb0afc1ca
+              created: 1743724679489
+              modified: 1743779165698
+              isPrivate: false
+              sortKey: -1743740182162
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: http://127.0.0.1:5000/vote_results/bill/2900994
+            name: Vote Results by Bill Id
+            meta:
+              id: req_5573da21645e454794e0a7a7ec01ff3b
+              created: 1743726127875
+              modified: 1743741083903
+              isPrivate: false
+              sortKey: -1743740182062
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/11.0.1
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1743441113112
+    modified: 1743441113112
+environments:
+  name: Base Environment
+  meta:
+    id: env_99d30891da4bdcebc63947a8fc17f076de878684
+    created: 1743441113000
+    modified: 1743441113000
+    isPrivate: false
